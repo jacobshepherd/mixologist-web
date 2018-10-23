@@ -32,8 +32,8 @@ Table of Content:
 
 /*=====Color Styles By Section=====*/
 
-$primary: #FF1900;
-$secondary: #2FCA2D;
+$primary: $primary;
+$secondary: $secondary;
 
 /*===== GLOBAL =====*/
 
@@ -1057,21 +1057,18 @@ footer.row {
         color: $secondary;
     }
     &:hover {
-       border-color:darken($baseLight, 10%)
+        border-color: darken($baseLight, 10%)
     }
 }
 
-
 .pricing--featured {
     background-color: $primary;
-
     .pricing__title {
         color: $white;
     }
     .pricing__price {
         color: $white;
     }
-
     .pricing__content li {
         color: $white;
     }

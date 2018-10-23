@@ -1,10 +1,10 @@
 //FONT
 
-$poppin: 'Poppins', sans-serif;
+$poppin: 'Roboto', sans-serif;
 
 /*Color Variables*/
 
-$primary: #0084ff !default;
+$primary: rgb(39, 168, 228) !default;
 $secondary: #ff6622 !default;
 $white: #fff;
 $black: #000;
@@ -20,3 +20,4 @@ $indegogo: #eb1478;
 @mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s) {
     transition: $property $duration $animate $delay;
 }
+

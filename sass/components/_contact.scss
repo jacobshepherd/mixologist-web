@@ -4,6 +4,13 @@
         height: 900px;
     }
 }
+#mapBox1 {
+    height: 546px;
+    background-color: #f8fbfd;
+    @media (max-width: 767px) {
+        height: 900px;
+    }
+}
 
 .contact {
     position: relative;

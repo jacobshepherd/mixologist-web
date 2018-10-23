@@ -27,7 +27,7 @@
             }
         }
         .navbar-brand {
-            margin-left: 0;
+            // margin-left: 0;
             padding: 0;
             height: 55px;
             width: 203px;
@@ -46,7 +46,8 @@
         padding: 20px 0;
         .navbar-header {
             .navbar-brand {
-                width: 150px;
+                margin-top: -25px;
+                width: 100px;
                 height: 40px;
             }
         }
