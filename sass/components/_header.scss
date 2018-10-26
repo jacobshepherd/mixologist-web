@@ -30,15 +30,19 @@
             // margin-left: 0;
             padding: 0;
             height: 55px;
-            width: 203px;
+            width: 300px;
             @include transition;
             @media (max-width: 991px) {
-                width: 150px;
-                height: 40px;
+                width: 200px;
+                height: 50px;
             }
             img {
                 max-width: 100%;
                 @include transition;
+                @media (max-width: 991px) {
+                    margin-top: -10px;
+                    // TODO: fix after shrink
+                }
             }
         }
     }
@@ -46,9 +50,16 @@
         padding: 20px 0;
         .navbar-header {
             .navbar-brand {
-                margin-top: -25px;
-                width: 100px;
-                height: 40px;
+                margin-top: -16px;
+                width: 190px;
+                height: 50px;
+
+                img {
+                    @media (max-width: 991px) {
+                        margin-top: 0px;
+                        // TODO: fix after shrink
+                    }
+                }
             }
         }
         #main-navbar {
