@@ -6,7 +6,7 @@
  * ------------------------------------
  */
  
-$to    = "support@mixologist.ai"; // <--- Your email ID here
+$to    = "hello@mixologist.ai"; // <--- Your email ID here
 
 /*
  * ------------------------------------
