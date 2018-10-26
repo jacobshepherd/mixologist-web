@@ -36,9 +36,9 @@
     -webkit-border-radius: 50% 50% 50% 50%;
     border-radius: 50% 50% 50% 50%;
     position: absolute;
-    border-top: 5px solid #374048;
+    border-top: 5px solid rgb(39, 168, 228);
     border-bottom: 5px solid transparent;
-    border-left: 5px solid #374048;
+    border-left: 5px solid rgb(39, 168, 228);
     border-right: 5px solid transparent;
     -webkit-animation: animate 2s infinite;
     animation: animate 2s infinite;
