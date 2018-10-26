@@ -3058,7 +3058,7 @@ header.video-bg {
 }
 @media (max-width: 767px) {
   #mapBox1 {
-    height: 900px;
+    height: 450px;
   }
 }
 
