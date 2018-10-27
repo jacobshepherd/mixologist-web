@@ -26,8 +26,15 @@
     }
     text-align: center;
     .process-icon{
+        img {
+            width: 125px;
+            @media (max-width: 767px){
+                width: 80px;
+            }
+        }
         line-height: 106px;
     }
+
     h3{
         font: 600 26px/1 $poppin;
         margin: 60px 0 8px;

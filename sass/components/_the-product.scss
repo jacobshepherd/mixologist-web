@@ -5,13 +5,15 @@
         overflow: hidden;
     }
     img {
+        margin-top: 15px;
         @media (max-width: 767px) {
+            margin-top: 0;
             max-width: 200px;
         }
     }
 }
 
-.apple-watch-note-feature {
+.product-feature {
     padding-top: 35px;
     position: relative;
     @media(max-width: 767px) {
