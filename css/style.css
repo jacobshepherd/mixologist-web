@@ -134,11 +134,11 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 }
 
 .navbar-default .nav li a {
-  color: #8f969d;
+  color: #374048;
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
-  color: #374048;
-  background: none;
+    color: #27a8e4;
+    background: none;
 }
 .navbar-default .nav li.active a {
   background: none;
