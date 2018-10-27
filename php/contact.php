@@ -41,11 +41,11 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 $data = curl_exec($ch);
 //Close the cURL handle.
 curl_close($ch);
-    
-if ($data) {
-	echo 'success';
-} else {
+
+if (strpos($data, 'error') !== false) {
 	echo 'failure';
+} else {
+	echo 'success';
 }
 
 // $website = "https://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; 
