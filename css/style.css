@@ -1460,7 +1460,7 @@ textarea.form-control {
 .top-banner h2 {
   margin: 0 0 20px;
   font: 600 79px/1 "Roboto", sans-serif;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
 }
 @media (max-width: 1199px) {
   .top-banner h2 {
