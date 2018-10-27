@@ -19,9 +19,10 @@ $email = $_REQUEST["email"];
 $subject = $_REQUEST["subject"];
 $msg   = $_REQUEST["message"];
 
-$website = "https://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; 
-$website = dirname($website);
-$website = dirname($website);
+// $website = "https://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; 
+// $website = dirname($website);
+// $website = dirname($website);
+$website = "https://www.mixologist.ai";
 
 if (isset($email) && isset($name)) {
 
