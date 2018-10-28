@@ -9,8 +9,6 @@
 	$apiEndpoint = "https://36p03itvai.execute-api.us-east-2.amazonaws.com/default/contactSubmission?service=mixologist&name=";
 	$apiEndpoint .= urlencode($name)."&email=".urlencode($email)."&subject=".urlencode($subject)."&message=".urlencode($msg);
 	
-	echo $apiEndpoint;
-	echo "\n";
 
 	//Initialize cURL.
 	$ch = curl_init();
