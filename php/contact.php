@@ -10,9 +10,6 @@
 	
 	$encoded = rawurlencode($apiEndpoint);
 	$encoded = str_replace(" ", "%20", $encoded);
-
-	echo $encoded;
-	echo "\n";
 	
 	//Initialize cURL.
 	$ch = curl_init();
@@ -33,7 +30,6 @@
 	//Close the cURL handle.
 	curl_close($ch);
 	
-	echo $data;
 
 	if (strpos($data, 'error') !== false) {
 		echo 'failure';
