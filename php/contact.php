@@ -12,7 +12,7 @@
 	//Initialize cURL.
 	$ch = curl_init();
 	// add header for api key
-	curl_setopt($ch, CURLOPT_URL, $apiEndpoint);
+	curl_setopt($ch, CURLOPT_URL, rawurlencode($apiEndpoint));
 	//Set CURLOPT_RETURNTRANSFER so that the content is returned as a variable.
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 	//Set CURLOPT_FOLLOWLOCATION to true to follow redirects.
