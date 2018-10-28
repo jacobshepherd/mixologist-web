@@ -28,12 +28,13 @@
 	//Close the cURL handle.
 	curl_close($ch);
 	
+	echo $data;
 
-	// if (strpos($data, 'error') !== false) {
-	// 	echo 'failure';
-	// } else {
-	echo 'success';
-	// }
+	if (strpos($data, 'error') !== false) {
+		echo 'failure';
+	} else {
+		echo 'success';
+	}
 
 
 ?>
