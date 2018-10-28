@@ -7,7 +7,10 @@
 
 	$apiKey = getenv("AWS_LAMBDA_KEY");
 	$apiEndpoint = "https://36p03itvai.execute-api.us-east-2.amazonaws.com/default/contactSubmission?service=mixologist&name=$name&email=$email&subject=$subject&message=$msg";
+	
 	echo "Endpoint \n";
+	echo $apiEndpoint;
+
 	//Initialize cURL.
 	$ch = curl_init();
 	// add header for api key
