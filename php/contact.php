@@ -6,7 +6,8 @@
 	$msg   = $_REQUEST["message"];
 
 	$apiKey = getenv("AWS_LAMBDA_KEY");
-	$apiEndpoint = "https://36p03itvai.execute-api.us-east-2.amazonaws.com/default/contactSubmission?service=mixologist&name=".rawurlencode($name)."&email=".rawurlencode($email)."&subject=".rawurlencode($subject)."&message=".rawurlencode($msg);
+	$apiEndpoint = "https://36p03itvai.execute-api.us-east-2.amazonaws.com/default/contactSubmission?service=mixologist&name=";
+	$apiEndpoint .= urlencode($name)."&email=".urlencode($email)."&subject=".urlencode($subject)."&message=".urlencode($msg);
 	
 	echo $apiEndpoint;
 	echo "\n";
