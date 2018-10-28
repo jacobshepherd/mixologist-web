@@ -8,11 +8,13 @@
 	$apiKey = getenv("AWS_LAMBDA_KEY");
 	$apiEndpoint = "https://36p03itvai.execute-api.us-east-2.amazonaws.com/default/contactSubmission?service=mixologist&name=".rawurlencode($name)."&email=".rawurlencode($email)."&subject=".rawurlencode($subject)."&message=".rawurlencode($msg);
 	
+	echo $apiEndpoint;
+	echo "\n";
 
 	//Initialize cURL.
 	$ch = curl_init();
 	// add header for api key
-	curl_setopt($ch, CURLOPT_URL, $encoded);
+	curl_setopt($ch, CURLOPT_URL, $apiEndpoint);
 	//Set CURLOPT_RETURNTRANSFER so that the content is returned as a variable.
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 	//Set CURLOPT_FOLLOWLOCATION to true to follow redirects.
