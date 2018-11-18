@@ -114,10 +114,10 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
     .nav {
         li {
             a {
-                color: #8f969d;
+                color: $baseColor;
                 &:hover,
                 &:focus {
-                    color: $baseColor;
+                    color: $primary;
                     background: none;
                 }
             }
@@ -143,7 +143,7 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
     &,
     &:hover,
     &:focus {
-        color: $secondary;
+        color: $primary;
     }
 }
 
@@ -152,7 +152,7 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
         color: $baseColor;
     }
     p {
-        color: #8a9095;
+        color: $baseColor;
     }
     .apple-watch {
         img {}

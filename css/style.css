@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 /* ------------------------------------------------
 
 Page	: Proland CSS
@@ -137,8 +137,8 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
   color: #374048;
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
-    color: #27a8e4;
-    background: none;
+  color: #27a8e4;
+  background: none;
 }
 .navbar-default .nav li.active a {
   background: none;
@@ -152,7 +152,7 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #ff6622;
+  color: #27a8e4;
 }
 
 .top-banner h2 {
