@@ -297,5 +297,28 @@ Surjith S M / @surjithctly
 
 
 
-
 })(jQuery);
+
+
+
+function copytext(value) {
+    if (value == null || typeof value != "string" || value.trim() == "") {
+        return;
+    }
+
+    var inputEle = document.createElement("input");
+    inputEle.setAttribute("type", "text");
+    inputEle.value = value;
+    var body = document.getElementsByTagName("BODY")[0];
+    body.appendChild(inputEle);
+
+    inputEle.select();
+    // copy
+    document.execCommand("copy");
+
+    // TODO: show copied confirmation
+    console.log("copied");
+
+    // remove created input element
+    body.removeChild(inputEle);
+}

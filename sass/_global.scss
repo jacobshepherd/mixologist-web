@@ -225,6 +225,12 @@ li {
     }
 }
 
+ .fa-link {
+
+     &:hover, &:focus {
+        background-color: transparent;
+     }
+ }
 
 /*============= Form Control - Form input Styles =============*/
 

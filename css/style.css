@@ -1037,6 +1037,10 @@ li {
   }
 }
 
+.fa-link:hover, .fa-link:focus {
+  background-color: transparent;
+}
+
 /*============= Form Control - Form input Styles =============*/
 .form-control {
   border-radius: 0;
@@ -3198,7 +3202,7 @@ header.video-bg {
   width: 30px;
   float: left;
   margin-left: -30px;
-  line-height: 32px;
+  line-height: 52px;
 }
 
 .contact-form textarea.form-control {
